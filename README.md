@@ -12,7 +12,7 @@ npm install -g babel-cli
 npm init
 ```
 
-## Add Dependencies and plugins
+## Add dependencies and plugins
 ```
 npm install webpack --save
 npm install webpack-dev-server --save
@@ -24,7 +24,7 @@ npm install react --save
 npm install react-dom --save
 ```
 
-## Install Babel Plugins
+## Install babel plugins
 ```
 npm install babel-core
 npm install babel-loader
@@ -40,7 +40,7 @@ touch main.js
 touch webpack.config.js
 ```
 
-## Set Compiler, Server and Loaders
+## Set compiler, server & loaders
 
 ###webpack.config.js:
 ```javascript
@@ -76,8 +76,8 @@ module.exports = config;
 ###package.json:
   Replace **"test: " "echo \"Error: no test specified\" && exit 1"** with **"start": "webpack-dev-server --hot"**
 
-- *ignore testing for now*
-- *'--­­hot' command will add live reload without refreshing the page*
+    - *ignore testing for now*
+    - *'--­­hot' command will add live reload without refreshing the page*
 
 ## Running the Server
 ```
