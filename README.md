@@ -69,14 +69,14 @@ var config = {
 module.exports = config;
 ```
 
-- setting webpack entry point to be main.js.
-- setting development server to 8080 port.
-- setting babel loaders to search for js files and use es2015 and react presets.
+- set webpack entry point to be main.js.
+- set development server to 8080 port.
+- set babel loaders to search for js files and use es2015 and react presets.
 
 ###package.json:
   Replace
   ```
-  "test: " "echo \"Error: no test specified\" && exit 1"
+  "test": "echo \"Error: no test specified\" && exit 1"
   ```
   with
   ```
