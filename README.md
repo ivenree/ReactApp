@@ -44,7 +44,7 @@ touch webpack.config.js
 
 ## Set Compiler, Server and Loaders
 
-####webpack.config.js:
+###webpack.config.js:
 ```javascript
 var config = {
   entry: './main.js',
@@ -71,18 +71,18 @@ var config = {
 module.exports = config;
 ```
 
-- setting webpack entry point to be main.js
-- setting development server to 8080 port
-- setting babel loaders to search for js files and use es2015 and react presets
+- setting webpack entry point to be main.js.
+- setting development server to 8080 port.
+- setting babel loaders to search for js files and use es2015 and react presets.
 
-####package.json:
+###package.json:
   Replace **"test" "echo \"Error: no test specified\" && exit 1"** with **"start": "webpack-dev-server --hot"**
 
-*- ignore testing for now
-- /--­­hot command will add live reload without refreshing the page*
+- *ignore testing for now*
+- *--­­hot command will add live reload without refreshing the page*
 
 #### Running the Server
 ```
 npm start
 ```
-*open browser & navigate to http://localhost:8080/*
+- *open browser & navigate to http://localhost:8080/*
