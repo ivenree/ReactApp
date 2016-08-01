@@ -1,12 +1,10 @@
 # ReactApp
 
-## Set up Global Babel Plugins
+## Set up global babel plugins
 ```
 npm install -g babel
 npm install -g babel-cli
 ```
-
-## Go to root directory of your workspace ->
 
 
 ## Generate package.json file
@@ -76,12 +74,12 @@ module.exports = config;
 - setting babel loaders to search for js files and use es2015 and react presets.
 
 ###package.json:
-  Replace **"test" "echo \"Error: no test specified\" && exit 1"** with **"start": "webpack-dev-server --hot"**
+  Replace **"test: " "echo \"Error: no test specified\" && exit 1"** with **"start": "webpack-dev-server --hot"**
 
 - *ignore testing for now*
-- *--­­hot command will add live reload without refreshing the page*
+- *'--­­hot' command will add live reload without refreshing the page*
 
-#### Running the Server
+## Running the Server
 ```
 npm start
 ```
