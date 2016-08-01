@@ -74,10 +74,17 @@ module.exports = config;
 - setting babel loaders to search for js files and use es2015 and react presets.
 
 ###package.json:
-  Replace **"test: " "echo \"Error: no test specified\" && exit 1"** with **"start": "webpack-dev-server --hot"**
+  Replace
+  ```
+  "test: " "echo \"Error: no test specified\" && exit 1"
+  ```
+  with
+  ```
+  "start": "webpack-dev-server --hot"
+  ```
 
-    - *ignore testing for now*
-    - *'--­­hot' command will add live reload without refreshing the page*
+- *ignore testing for now*
+- *'--­­hot' command will add live reload without refreshing the page*
 
 ## Running the Server
 ```
